@@ -1,0 +1,33 @@
+{
+  "name": "limesearch",
+  "version": "0.0.0",
+  "description": "A utility to search and view limechat logs",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:arschmitz/limesearch.git"
+  },
+  "keywords": [
+    "limechat",
+    "search",
+    "irc",
+    "logs",
+    "pm"
+  ],
+  "author": "Alexander Schmitz <arschmitz@gmail.com> (http://arschmitz.me/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/arschmitz/limesearch/issues"
+  },
+  "bin": {
+    "limesearch": "limesearch.js"
+  },
+  "homepage": "https://github.com/arschmitz/limesearch",
+  "dependencies": {
+    "connect": "3.3.4",
+    "serve-static": "1.8.1"
+  }
+}
